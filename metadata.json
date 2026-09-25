@@ -1,0 +1,6 @@
+{
+  "name": "MineMind AI - MOIL Manganese Intelligence",
+  "description": "AI-based manganese exploration potential prediction, production forecasting, shortfall risk analysis, and operational recommendations for MOIL mines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

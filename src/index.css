@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Leaflet dark styling for OpenStreetMap public tiles (No API key needed) */
+.leaflet-container {
+  background-color: #020617 !important;
+}
+
+.leaflet-tile-pane {
+  filter: brightness(0.7) invert(1) contrast(3) hue-rotate(200deg) saturate(0.35) brightness(0.65);
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  background: #0f172a !important;
+  color: #f8fafc !important;
+  border: 1px solid #334155;
+  border-radius: 0.75rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.custom-popup .leaflet-popup-tip {
+  background: #0f172a !important;
+}

@@ -1,0 +1,26 @@
+{
+  "model_name": "RandomForestRegressor (Mine Production Forecasting)",
+  "r2_score": 0.9778,
+  "mae": 415.5916,
+  "rmse": 531.3426,
+  "train_samples": 384,
+  "test_samples": 96,
+  "random_state": 42,
+  "dataset_type": "Synthetic Demonstration Production Telemetry (MOIL Operational Prototype)",
+  "feature_importances": {
+    "planned_production": 0.2354,
+    "previous_production": 0.3509,
+    "equipment_downtime": 0.0362,
+    "blasting_delay": 0.0386,
+    "rainfall": 0.339
+  },
+  "target": "actual_production (Tonnes)",
+  "features": [
+    "planned_production",
+    "previous_production",
+    "equipment_downtime",
+    "blasting_delay",
+    "rainfall"
+  ],
+  "disclaimer": "Performance on demonstration dataset. Do NOT imply these values represent real-world MOIL model accuracy."
+}

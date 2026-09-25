@@ -1,0 +1,147 @@
+import { MOILMine } from '../types';
+
+export const REAL_MOIL_MINES: MOILMine[] = [
+  // Maharashtra (6 mines)
+  {
+    mine_id: 'chikla',
+    mine_name: 'Chikla Mine',
+    state: 'Maharashtra',
+    district: 'Bhandara',
+    latitude: 21.5562,
+    longitude: 79.7523,
+    location_accuracy: 'Approximate public location',
+    mining_method: 'Underground & Opencast',
+    key_mineralogy: 'Braunite, Pyrolusite, Psilomelane',
+    annual_report_ref: 'MOIL Annual Report (Tumsar-Bhandara Belt)',
+    established_year: 1901,
+    remarks: 'High-grade Gondite belt deposit near Tumsar, operating across underground levels.'
+  },
+  {
+    mine_id: 'dongri_buzurg',
+    mine_name: 'Dongri Buzurg Mine',
+    state: 'Maharashtra',
+    district: 'Bhandara',
+    latitude: 21.5714,
+    longitude: 79.6892,
+    location_accuracy: 'Approximate public location',
+    mining_method: 'Opencast',
+    key_mineralogy: 'Pyrolusite, Cryptomelane, Braunite',
+    annual_report_ref: 'MOIL Annual Report (Bhandara District)',
+    established_year: 1902,
+    remarks: 'Renowned for high-dioxide manganese ore (MnO2) supplied for dry battery manufacturing.'
+  },
+  {
+    mine_id: 'beldongri',
+    mine_name: 'Beldongri Mine',
+    state: 'Maharashtra',
+    district: 'Nagpur',
+    latitude: 21.3621,
+    longitude: 79.2941,
+    location_accuracy: 'Approximate public location',
+    mining_method: 'Opencast',
+    key_mineralogy: 'Braunite, Quartzite Intercalations',
+    annual_report_ref: 'MOIL Annual Report (Ramtek-Nagpur Belt)',
+    established_year: 1902,
+    remarks: 'Situated in the Mansar-Kandri ore alignment with continuous bedded manganese.'
+  },
+  {
+    mine_id: 'kandri',
+    mine_name: 'Kandri Mine',
+    state: 'Maharashtra',
+    district: 'Nagpur',
+    latitude: 21.4312,
+    longitude: 79.2745,
+    location_accuracy: 'Approximate public location',
+    mining_method: 'Opencast & Underground',
+    key_mineralogy: 'Braunite, Gondite Host Rock',
+    annual_report_ref: 'MOIL Annual Report (Ramtek Tehsil)',
+    established_year: 1900,
+    remarks: 'High-grade manganese ore body with substantial underground reserves and mechanised winning.'
+  },
+  {
+    mine_id: 'munsar',
+    mine_name: 'Munsar Mine',
+    state: 'Maharashtra',
+    district: 'Nagpur',
+    latitude: 21.4019,
+    longitude: 79.2933,
+    location_accuracy: 'Approximate public location',
+    mining_method: 'Underground & Opencast',
+    key_mineralogy: 'Braunite, Hollandite, Pyrolusite',
+    annual_report_ref: 'MOIL Annual Report (Ramtek Belt)',
+    established_year: 1901,
+    remarks: 'Historic manganese synclinal formation characterized by folded manganese horizons.'
+  },
+  {
+    mine_id: 'gumgaon',
+    mine_name: 'Gumgaon Mine',
+    state: 'Maharashtra',
+    district: 'Nagpur',
+    latitude: 21.3911,
+    longitude: 78.9842,
+    location_accuracy: 'Approximate public location',
+    mining_method: 'Deep Underground',
+    key_mineralogy: 'Braunite, Jacobsite, Gondite',
+    annual_report_ref: 'MOIL Annual Report (Sausar-Nagpur Belt)',
+    established_year: 1903,
+    remarks: 'Deep shaft underground mine west of Nagpur with steep dipping manganese reef.'
+  },
+
+  // Madhya Pradesh (4 mines)
+  {
+    mine_id: 'balaghat',
+    mine_name: 'Balaghat Mine',
+    state: 'Madhya Pradesh',
+    district: 'Balaghat',
+    latitude: 21.8745,
+    longitude: 80.2014,
+    location_accuracy: 'Approximate public location',
+    mining_method: 'Deep Underground (Bharweli)',
+    key_mineralogy: 'Braunite, Pyrolusite, Bixbyite',
+    annual_report_ref: 'MOIL Annual Report (Bharweli Deposit)',
+    established_year: 1901,
+    remarks: 'Flagship deep underground mine of MOIL, producing premier grade ore with shaft depths exceeding 380m.'
+  },
+  {
+    mine_id: 'ukwa',
+    mine_name: 'Ukwa Mine',
+    state: 'Madhya Pradesh',
+    district: 'Balaghat',
+    latitude: 21.9688,
+    longitude: 80.4721,
+    location_accuracy: 'Approximate public location',
+    mining_method: 'Underground',
+    key_mineralogy: 'Braunite, Sericite Schist',
+    annual_report_ref: 'MOIL Annual Report (Baihar-Ukwa Belt)',
+    established_year: 1907,
+    remarks: 'Notable for its long continuous tabular manganese bed stretching across several kilometers.'
+  },
+  {
+    mine_id: 'tirodi',
+    mine_name: 'Tirodi Mine',
+    state: 'Madhya Pradesh',
+    district: 'Balaghat',
+    latitude: 21.6811,
+    longitude: 79.7124,
+    location_accuracy: 'Approximate public location',
+    mining_method: 'Opencast & Underground',
+    key_mineralogy: 'Braunite, Spessartine, Rhodonite',
+    annual_report_ref: 'MOIL Annual Report (Tirodi-Balaghat Belt)',
+    established_year: 1901,
+    remarks: 'Significant opencast and underground operations with distinctive manganese silicate rocks.'
+  },
+  {
+    mine_id: 'sitapatore',
+    mine_name: 'Sitapatore Mine',
+    state: 'Madhya Pradesh',
+    district: 'Balaghat',
+    latitude: 21.5432,
+    longitude: 79.7410,
+    location_accuracy: 'Approximate public location',
+    mining_method: 'Opencast & Underground',
+    key_mineralogy: 'Braunite, Pyrolusite, Psilomelane',
+    annual_report_ref: 'MOIL Annual Report (Sukli-Sitapatore Belt)',
+    established_year: 1904,
+    remarks: 'Interlinked manganese formation near the Madhya Pradesh - Maharashtra interstate boundary.'
+  }
+];

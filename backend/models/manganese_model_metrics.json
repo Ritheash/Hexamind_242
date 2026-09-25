@@ -1,0 +1,34 @@
+{
+  "model_name": "RandomForestRegressor (Manganese Grade Potential)",
+  "r2_score": 0.6867,
+  "mae": 2.6731,
+  "rmse": 3.3277,
+  "train_samples": 480,
+  "test_samples": 120,
+  "random_state": 42,
+  "dataset_type": "Synthetic Demonstration Geological Dataset (MOIL Exploration Prototype)",
+  "feature_importances": {
+    "depth": 0.0316,
+    "ore_thickness": 0.5194,
+    "rock_density": 0.1049,
+    "moisture": 0.0222,
+    "iron_content": 0.0234,
+    "silica_content": 0.1005,
+    "geological_indicator_1": 0.0821,
+    "geological_indicator_2": 0.0598,
+    "historical_nearby_production": 0.056
+  },
+  "target": "Mn_grade (%)",
+  "features": [
+    "depth",
+    "ore_thickness",
+    "rock_density",
+    "moisture",
+    "iron_content",
+    "silica_content",
+    "geological_indicator_1",
+    "geological_indicator_2",
+    "historical_nearby_production"
+  ],
+  "disclaimer": "Performance on demonstration dataset. Do NOT imply these values represent real-world MOIL model accuracy."
+}
