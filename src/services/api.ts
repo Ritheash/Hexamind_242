@@ -16,7 +16,7 @@ import {
   generateRecommendations
 } from './mlEngine';
 
-const API_BASE = '/api';
+const API_BASE = import.meta.env.VITE_API_URL || '/api';
 
 /**
  * Universal API Client with automatic fallback to client-side ML engine.
